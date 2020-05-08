@@ -1,0 +1,13 @@
+{
+  "name": "nightwatch-example.js",
+  "version": "0.0.0",
+  "description": "Nigtwatch.js example on Sauce Labs",
+  "main": "",
+  "scripts": {
+    "test": "./node_modules/.bin/nightwatch -e chrome tests"
+  },
+  "devDependencies": {
+    "saucelabs": "3.0.1",
+    "nightwatch": "1.3.1"
+  }
+}
